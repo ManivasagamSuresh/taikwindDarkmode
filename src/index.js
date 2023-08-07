@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const theme = localStorage.getItem("theme");
+console.log(theme);
 root.render(
   <React.StrictMode>
     <App />
